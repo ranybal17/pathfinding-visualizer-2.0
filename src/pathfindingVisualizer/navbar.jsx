@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 
-const brand = window.innerWidth > 600 ? "Pathfinding Visualizer" : "Pathfinder";
+const brand = window.innerWidth > 600 ? "Impulse" : "Pathfinder";
 
 class NavBar extends Component {
   state = {
